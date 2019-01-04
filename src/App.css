@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+@import url('https://fonts.googleapis.com/css?family=Luckiest+Guy');
+
+
+.App {
+  text-align: center;
+}
+.input {
+  font-size: 2rem;
+}
+h1 {
+  font-family: 'Abril Fatface', cursive;
+  font-size: 5rem;
+}
+button {
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  font-family: 'Luckiest Guy', cursive;
+  padding: 1rem 1rem 0.5rem 1rem;
+  transition: 1s;
+}
+button:hover {
+  background-color: rgba(0,0,0,0.8);
+  cursor: pointer;
+}
+input {
+  background: rgba(0,0,0,0.5);
+  outline: none;
+  border: none;
+  margin-top: 1rem;
+  color: white;
+  font-family: monospace, cursive;
+  font-weight: bold;
+  text-align: center;
+  padding: 0.5rem;
+  width: 10%;
+}
+input:focus {
+  background: rgba(0,0,0,0.8);
+}
